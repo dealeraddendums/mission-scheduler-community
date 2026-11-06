@@ -5,27 +5,25 @@ Yes. It is given away to public benefit flying organizations at no charge — no
 no paid tiers. It was built by a volunteer flying group that wanted to give back to the community.
 
 ### How do I get it?
-Fill in the form at https://missionscheduler.com. Copies are handed over after a short
-conversation, not as a public download — that keeps every deployment known, supportable, and
-properly set up.
+Fill in the form at https://missionscheduler.com. After a short conversation we set your
+organization up on the hosted service — there is no download and nothing to install.
 
 ### What do we actually receive?
-Your own private copy of the system: your own database, your own domain, your own branding, and
-your own iOS/Android app builds. Your data lives in your instance and is not shared with anyone.
+Your organization on Mission Scheduler: your own sign-in at app.missionscheduler.com (or your own
+subdomain), your branding, your pilots/passengers/missions. Your data is isolated by the database's
+row-level security and visible only to your organization.
 
-### Can we host it ourselves?
-Yes. You can run it entirely on your own accounts (it deploys on commodity infrastructure:
-a Postgres backend, a Node web app, and standard app-store builds), or the maintainer can help
-you get set up.
+### Do we need servers or IT help?
+No. Mission Scheduler is fully hosted. Your coordinator manages everything from the web app, and
+pilots install it on their phones straight from the browser (no app store).
 
 ### Is the source code public?
 No. The application repository is private. This community repository contains documentation and
 discussions only.
 
 ### What does it cost to run?
-Mission Scheduler itself is free. Your instance has its own running costs you pay directly to
-providers (hosting, database, SMS, app store developer accounts) — typically modest for a
-volunteer-scale organization.
+Nothing. Mission Scheduler is free and hosted — there are no fees and no infrastructure for you
+to pay for.
 
 ### Who supports it?
 The community, in [Discussions](../../discussions). There is no phone/email support or SLA.

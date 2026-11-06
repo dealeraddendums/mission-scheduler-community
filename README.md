@@ -9,9 +9,10 @@ residents to mainland medical appointments at no charge, and is given away to si
 at no cost.
 
 **Website:** https://missionscheduler.com
-**Get Mission Scheduler:** https://missionscheduler.com/#get — the software is free; each
-organization receives its own private copy (own database, own domain, own mobile app builds) after
-a short conversation.
+**Get Mission Scheduler:** https://missionscheduler.com/#get — the software is free and **hosted by
+us**: after a short conversation we set your organization up, your coordinator logs in, and there
+is nothing to install or maintain. Each organization's data is isolated and visible only to that
+organization.
 
 ## What it does
 
@@ -23,7 +24,8 @@ a short conversation.
 - **Calendar** — month, week, day, and list views.
 - **Pilot self-service** — pilots can add passengers and book their own missions; offering a
   mission to other pilots goes through admin approval.
-- **Mobile app** — iOS and Android for pilots: accept or decline missions from your phone.
+- **Mobile** — installs on any phone straight from the browser (iPhone and Android, no app
+  store): push notifications, accept/decline, tap-to-call, offline-readable missions.
 - **Notifications** — every message template is editable by your admin, with shortcodes.
 - **Branding** — your logo, colors, and login imagery.
 - **Reports** — pilot mission history and exports on every grid.
@@ -33,7 +35,7 @@ a short conversation.
 This repo holds **public documentation and community discussion only** — no application code.
 
 - [FAQ](FAQ.md)
-- [Running your own instance](docs/SETUP.md)
+- [Getting started](docs/GETTING-STARTED.md)
 - [Discussions](../../discussions) — community support (Q&A, ideas, announcements)
 
 ## Support
