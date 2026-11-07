@@ -22,11 +22,15 @@ change it any time in **Profile**: the device toggle, and whether you want
 
 ## 3. Accept a mission
 
-When a mission needs a pilot you'll get a push/SMS/email:
+When a mission needs a pilot you'll get a push/SMS/email. Any of these four paths
+works — first pilot in wins:
 
-- **Push**: tap **Accept** right on the notification, or open it and confirm.
-- **SMS**: reply **YES 123** (the mission number in the text).
-- **In the app**: open missions show on your dashboard with an **Accept** button.
+- **Push notification**: tap **Accept** right on the notification, or open it and confirm.
+- **Text message**: reply **YES 123** (the mission number is in the text). You'll get
+  a confirmation text back right away.
+- **Email link**: the invitation email has an **Accept this mission** link that takes
+  you to a one-tap accept page — no sign-in needed.
+- **Dashboard**: open missions show on your dashboard with an **Accept** button.
 
 First pilot to accept gets the mission; you'll get a confirmation with a calendar
 invite attached. The mission card has tap-to-call/text for the passenger and the

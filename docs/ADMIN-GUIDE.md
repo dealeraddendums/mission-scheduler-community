@@ -46,6 +46,24 @@ Open any mission to see its timeline, invites, and notification history.
 
 ![Mission detail](assets/mission-detail.png)
 
+**Inviting pilots** — the Invite dialog has three modes:
+
+- **Select pilot(s)**: search by name, narrow with capability chips (aircraft, MVFR,
+  night, short-notice), and tick exactly who you want.
+- **All pilots**: every active pilot at once.
+- **By group(s)**: pick one or more pilot groups — overlapping members are only
+  invited once.
+
+Before anything sends, the dialog previews "This will invite N pilots" with an
+expandable list of exactly who. Only the **assigned pilot** and **inactive pilots**
+are left out (the preview says so, e.g. "Not included: 1 assigned · 2 inactive").
+
+**Re-inviting**: a pilot who already has a pending invite stays selectable — their
+chip shows when they were invited (e.g. "Invited 11/7 12:01"). Selecting them again
+simply re-sends the Mission Request and records a new invitation row marked
+**resent**. Each row of the mission's Invitations table also has its own **Resend**
+button for a one-click nudge.
+
 - **Assign** a pilot directly (or change pilots) — both pilot and passenger are notified.
 - A pilot who accepts gets a confirmation; everyone else's invite closes.
 - If a pilot **relinquishes**, you're notified and the mission reopens.
