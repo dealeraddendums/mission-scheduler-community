@@ -46,21 +46,3 @@ of the decision.
 
 You can also add a new passenger yourself (Patients → Add Patient).
 
-## 6. Fuel credits — redeem at the pump
-
-Every mission flown earns **+10 gallons** (added automatically overnight). Your balance
-is on your dashboard and Profile.
-
-To redeem fuel yourself, tap **Redeem fuel** (dashboard or Profile; on a phone it's in
-the **⋯** menu next to Add Mission):
-
-1. Pick the gallons — **10 / 20 / 30 / 40 / 50** (multiples of 10 only; amounts beyond
-   your balance are grayed out).
-2. The date is "just now" by default — you can back-date up to a year if you pumped earlier.
-3. Optionally add where (e.g. "KORS self-serve") and a note, check the balance
-   **before → after**, and Confirm.
-
-You'll get a confirmation on screen and a push notification, and the redemption appears
-immediately in **Fuel Credit History** (tap **Allocations** on a row to see which of your
-missions the gallons were applied to). If a redemption was a mistake, ask the coordinator —
-they can void it within 30 days and the gallons come back.

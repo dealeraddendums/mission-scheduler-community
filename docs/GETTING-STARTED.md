@@ -24,7 +24,7 @@ approval.
 
 ## 5. Phones
 Pilots install the app straight from the browser — iPhone (Safari → Share → Add to Home Screen)
-or Android (Chrome → Install). No app store, nothing to update.
+or Android (Chrome → Install). Nothing to download or update — it installs from the browser and is always current.
 
 ## Questions?
 Ask in [Discussions → Q&A](../../../discussions). Support is community-based; there's no phone or

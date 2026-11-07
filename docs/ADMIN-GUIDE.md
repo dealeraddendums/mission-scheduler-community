@@ -1,7 +1,7 @@
 # Coordinator Guide — Mission Scheduler
 
 For the scheduling coordinator (admin role). Everything below happens at
-**https://your organization’s Mission Scheduler address** after signing in. Screenshots show fictional
+your organization’s Mission Scheduler address (hosted for you — nothing to install) after signing in. Screenshots show fictional
 demo data.
 
 ## Signing in
@@ -15,7 +15,7 @@ more menus.
 
 Your dashboard shows the year's totals and the last 30 days of missions. The sidebar is
 your map: Missions, Calendar, Patients, Pilots, Destinations, Groups, Reports,
-Fuel Credits, Templates, Notifications, Admin Settings.
+Templates, Notifications, Admin Settings.
 
 ## Add a passenger (patient)
 
@@ -76,31 +76,8 @@ hand-picked set — it uses the same delivery log as everything else.
 ## Reports
 
 **Reports** shows per-pilot mission totals (filter by year, export CSV) and a
-date-range **mission history CSV**. With fuel credits enabled you also get the **Fuel
-Consumption Report** (monthly/yearly CSV + printable view).
+date-range **mission history CSV**.
 
-## Fuel credits
-
-**Fuel Credit History** is the ledger: +10 per mission flown (awarded automatically each
-night), **Record Refuel** subtracts the gallons a pilot pumped (shows before/after
-balance), and pre-2027 history is under the read-only Legacy tab.
-
-Pilots can also redeem fuel themselves (multiples of 10, never beyond their balance,
-up to a year back). Their redemptions show in the ledger with a **Pilot redemption**
-chip; every redemption is allocated against their oldest mission credits — click
-**Allocations** on a row to see exactly which missions (patient, destination, flight
-date) the gallons were applied to.
-
-**Void a redemption** — within 30 days of a mistaken redemption, click **Void** on the
-row, give a reason, and confirm. The gallons return to the pilot's balance, a reversing
-entry is written, and the pilot is notified by email and push.
-
-**Monthly accountant report** — under Site Settings → Monthly Fuel Report, set the
-accountant's email (and optional CC) and switch on "Send monthly fuel report". On the
-1st of each month at 6:00 am the previous month's Fuel Consumption CSV (one line per
-10-gallon allocation, with the mission it was applied to) is emailed automatically; the
-**Send now** button on the Fuel Consumption Report page re-sends any month on demand.
-The email text is editable under Templates ("Monthly Fuel Report").
 
 ## Manage users
 

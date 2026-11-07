@@ -15,7 +15,7 @@ row-level security and visible only to your organization.
 
 ### Do we need servers or IT help?
 No. Mission Scheduler is fully hosted. Your coordinator manages everything from the web app, and
-pilots install it on their phones straight from the browser (no app store).
+pilots install it on their phones straight from the browser — nothing to download or update.
 
 ### Is the source code public?
 No. The application repository is private. This community repository contains documentation and
