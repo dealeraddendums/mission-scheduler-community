@@ -1,0 +1,111 @@
+# Coordinator Guide — Mission Scheduler
+
+For the scheduling coordinator (admin role). Everything below happens at
+**your organization’s Mission Scheduler address** after signing in. Screenshots show fictional
+demo data.
+
+## Signing in
+
+Use your email and password. First time (or forgotten password): **Forgot Password?**
+on the login page emails you a reset link. The app also works great on your phone —
+see the [Pilot Guide](PILOT-GUIDE.md) for install steps; admins get the same app with
+more menus.
+
+![Dashboard](assets/dashboard.png)
+
+Your dashboard shows the year's totals and the last 30 days of missions. The sidebar is
+your map: Missions, Calendar, Patients, Pilots, Destinations, Groups, Reports,
+Fuel Credits, Templates, Notifications, Admin Settings.
+
+## Add a passenger (patient)
+
+**Patients → Add Patient.** Name is required; add email/phone and tick how they want to
+be contacted (email / SMS) — those switches control which notifications they get. A
+patient with an email can be given a login (**Create login** on their row) so they can
+see their own upcoming missions.
+
+![Patients](assets/patients.png)
+
+## Post a mission
+
+**Missions → New Mission** (or the + button). Pick the passenger, destination, date and
+appointment time, duration, and any notes. Multiple dates at once create one mission per
+date.
+
+![New mission](assets/mission-new.png)
+
+When you save, the app asks whether to **send mission requests now or later**:
+
+- **Now** — pilots in the audience you chose (all pilots or a group) get the Mission
+  Request email/SMS/push with a one-tap accept link. First to accept gets it.
+- **Later** — the mission sits as *open*; send invites from the mission page when ready.
+
+## Invite, assign, and manage a mission
+
+Open any mission to see its timeline, invites, and notification history.
+
+![Mission detail](assets/mission-detail.png)
+
+- **Assign** a pilot directly (or change pilots) — both pilot and passenger are notified.
+- A pilot who accepts gets a confirmation; everyone else's invite closes.
+- If a pilot **relinquishes**, you're notified and the mission reopens.
+- **Cancel** asks for a reason, which goes into the notifications.
+
+## Approve a pilot's offered mission
+
+Pilots can post missions for themselves without approval. When a pilot wants to **offer
+a mission to other pilots**, it lands in **Pending Approvals** (sidebar badge). Approve
+to release the standard invites, or decline with a note — the pilot is notified either
+way.
+
+## Edit a message template
+
+**Templates** lists every email/SMS/push text the system sends. Click one to edit:
+shortcode chips (like `{{mission_date}}`) insert live values, the preview shows it with
+sample data, and **Reset to default** undoes your changes.
+
+![Templates](assets/templates.png)
+
+## Contact pilots
+
+**Pilots → Contact Pilots** sends a one-off email/SMS to all pilots, a group, or a
+hand-picked set — it uses the same delivery log as everything else.
+
+![Contact pilots](assets/contact-pilots.png)
+
+## Reports
+
+**Reports** shows per-pilot mission totals (filter by year, export CSV) and a
+date-range **mission history CSV**. With fuel credits enabled you also get the **Fuel
+Consumption Report** (monthly/yearly CSV + printable view).
+
+## Fuel credits
+
+**Fuel Credits** is the ledger: +10 per mission flown (awarded automatically each
+night), **Record Refuel** subtracts the gallons a pilot pumped (shows before/after
+balance), and pre-2027 history is under the read-only Legacy tab.
+
+## Manage users
+
+**Admin Settings → User Management**: every login as a card.
+
+- **Add User** (admin / pilot / patient) — a welcome email is queued; they set their own
+  password via Forgot Password.
+- **Resend activation** — emails/texts a fresh set-your-password link (used at launch;
+  skipped automatically once the person has signed in).
+- **Change Password** — set one directly, e.g. over the phone.
+- **Delete** — removes the login (refused while a pilot still has upcoming assigned
+  missions). The pilot/patient record stays.
+
+## Branding & settings
+
+- **Admin Settings → Image Management**: logo, login images, and the favicon (which also
+  becomes the app icon on phones). Changes apply immediately.
+- **Admin Settings → Site Settings**: colors, timezone, calendar animation, and the
+  email sender identity (name, reply-to).
+
+## When something doesn't send
+
+**Notifications** shows every email/SMS/push with its status. Failed rows show the
+provider error and have a **Retry** button. If you see a burst of failures, the platform
+operator is alerted automatically within the hour.

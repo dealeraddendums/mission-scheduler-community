@@ -36,6 +36,8 @@ This repo holds **public documentation and community discussion only** — no ap
 
 - [FAQ](FAQ.md)
 - [Getting started](docs/GETTING-STARTED.md)
+- [Coordinator (admin) guide](docs/ADMIN-GUIDE.md)
+- [Pilot guide](docs/PILOT-GUIDE.md)
 - [Discussions](../../discussions) — community support (Q&A, ideas, announcements)
 
 ## Support
