@@ -20,9 +20,15 @@ Templates, Notifications, Admin Settings.
 ## Add a passenger (patient)
 
 **Patients → Add Patient.** Name is required; add email/phone and tick how they want to
-be contacted (email / SMS) — those switches control which notifications they get. A
-patient with an email can be given a login (**Create login** on their row) so they can
-see their own upcoming missions.
+be contacted (email / SMS) — those switches control which notifications they get.
+
+A new patient **with an email gets their portal automatically**: the login is created and
+a welcome email ("set up your portal") with a one-time set-password link is sent the
+moment you save. From the portal they can see upcoming flights, their pilot's contact
+info, and **request flights themselves**. Patients without an email get no login (the
+patient page says so). For migrated patients or if the automatic step fails, use
+**Create login** on the row, and **Resend portal invite** (patient page) to send a fresh
+link — each resend invalidates the previous one.
 
 ![Patients](assets/patients.png)
 
@@ -69,12 +75,20 @@ button for a one-click nudge.
 - If a pilot **relinquishes**, you're notified and the mission reopens.
 - **Cancel** asks for a reason, which goes into the notifications.
 
-## Approve a pilot's offered mission
+## Approve requests (pilot offers and patient requests)
 
-Pilots can post missions for themselves without approval. When a pilot wants to **offer
-a mission to other pilots**, it lands in **Pending Approvals** (sidebar badge). Approve
-to release the standard invites, or decline with a note — the pilot is notified either
-way.
+Pilots can post missions for themselves without approval. Two things land in **Pending
+Approvals** (sidebar badge), each with a source badge:
+
+- **Pilot offer** — a pilot wants a mission offered to other pilots. Approve to release
+  the standard invites (adjust the audience right there), or decline with a note — the
+  pilot is notified either way.
+- **Patient request** — a passenger requested a flight from their portal. *Nothing is
+  visible to pilots until you approve.* Review it (open the mission to edit details if
+  needed), then Approve & Invite as usual — the passenger gets "your request was sent to
+  pilots" only at that moment. Decline with a reason and the passenger gets the
+  patient-worded decline email/SMS. A passenger can cancel their own request online while
+  it's unassigned; you and any invited pilots are notified.
 
 ## Edit a message template
 

@@ -48,5 +48,8 @@ approval needed. Want to **offer it to other pilots**? Choose the audience (all 
 or a group); the coordinator approves it before invites go out, and you'll be notified
 of the decision.
 
-You can also add a new passenger yourself (Patients → Add Patient).
+You can also add a new passenger yourself (Patients → Add Patient). A passenger you add
+**with an email** automatically gets a portal login and a welcome email — from their
+portal they can request flights themselves (those requests go to the coordinator for
+review; you'll see them as normal invites once approved — never before).
 
